@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/demo.dir/week1/demo.c.o  -o demo mylib/libmylib.a 

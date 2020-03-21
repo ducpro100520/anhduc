@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//mylib/QS.h
+
+/home/duc/anhduc/week1/demo.c
+stdio.h
+-
+stdlib.h
+-
+mylib/QS.h
+/home/duc/anhduc/week1/mylib/QS.h
+

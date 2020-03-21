@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(CAdvaned)
+set(CMAKE_C_STANDARD 99)
+include_directories(${CMAKE_SOURCE_DIR})
+add_subdirectory(mylib)
+add_executable(demo week1/demo.c)
+target_link_libraries(demo mylib)
