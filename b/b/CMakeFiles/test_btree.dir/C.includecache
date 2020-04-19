@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duc/CAdvanced/b/test_b_tree.c
+../cmake-btree-master/inc/btree.h
+/home/duc/CAdvanced/cmake-btree-master/inc/btree.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/duc/CAdvanced/cmake-btree-master/inc/bc.h
+limits.h
+-
+
+/home/duc/CAdvanced/cmake-btree-master/inc/bt.h
+stdio.h
+-
+bc.h
+/home/duc/CAdvanced/cmake-btree-master/inc/bc.h
+
+/home/duc/CAdvanced/cmake-btree-master/inc/btree.h
+bt.h
+/home/duc/CAdvanced/cmake-btree-master/inc/bt.h
+

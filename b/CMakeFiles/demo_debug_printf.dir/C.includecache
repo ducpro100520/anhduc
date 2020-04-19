@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//DebugPrintf/debug_printf.h
+stdarg.h
+-
+stdio.h
+-
+
+/home/duc/CAdvanced/demo/environment/demo_debug_printf.c
+DebugPrintf/debug_printf.h
+/home/duc/CAdvanced/demo/environment/DebugPrintf/debug_printf.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test1.dir/cjset.c.o CMakeFiles/test1.dir/cjset_t1.c.o  -o test1 ../libfdr/libfdr.a 

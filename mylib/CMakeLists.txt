@@ -1,1 +1,1 @@
-add_library(mylib STATIC quicksort.c)
+add_library(mylib STATIC qsort.c printer.c)

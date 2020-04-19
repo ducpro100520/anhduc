@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duc/CAdvanced/b/order.c
+order.h
+/home/duc/CAdvanced/b/order.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/home/duc/CAdvanced/b/order.h
+
+/home/duc/CAdvanced/b/order_t1.c
+order.h
+/home/duc/CAdvanced/b/order.h
+stdio.h
+-
+
